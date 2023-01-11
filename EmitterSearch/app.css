@@ -72,9 +72,10 @@ background-color:white;
 border-radius: 2rem 2rem 0 0;
 border-top:solid 0.25rem #DC143C;
 bottom: 0vh; 
-margin: 0 auto;
+left: 50%;
 padding: 1rem;
 position:fixed;
 text-align: center;
+transform: translateX(-50%); 
 z-index: 9999;
  }
