@@ -73,6 +73,7 @@ border-radius: 2rem 2rem 0 0;
 border-top:solid 0.25rem #DC143C;
 bottom: 0vh; 
 padding: 1rem;
-position:sticky;
+position:fixed;
 text-align: center;
+z-index: 9999;
  }
