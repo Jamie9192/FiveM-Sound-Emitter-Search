@@ -1,0 +1,78 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    --background-color: #F4F4F4;
+    --submit-background-color: #DC143C;
+    --submit-background-color-hover: #b80428;
+    --submit-text-color: #fff;
+}
+
+body {
+    background: var(--background-color);
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-top: 15px;
+}
+
+#results {
+    background: var(--background-color);
+    margin: 0 2rem;
+}
+
+#root, #submitButton {
+    height: 5rem;
+    border: 0 ;
+}
+
+#submitButton {
+    background-color: var(--submit-background-color);
+    border-radius: 0 2rem 2rem 0;
+    color: var(--submit-text-color);
+    font-size: 30px;
+    padding: 1rem 1rem 1rem .5rem;
+
+}
+
+#submitButton:hover {
+    background-color: var(--submit-background-color-hover);
+    background-image: linear-gradient(0deg, var(--submit-background-color) 0%, rgba(255, 255, 255, 0.15) 50%, var(--submit-background-color) 100%);
+    transition: background-image 500ms linear;
+}
+
+#root {
+    border-radius: 2rem 0rem 0rem 2rem;
+    font-size: 20px;
+    padding: 1rem 0.25rem 1rem 1rem;
+
+}
+
+#vector-form {
+    background-color: #EDEDED;
+    border-bottom: solid 0.25rem var(--submit-background-color);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    font-size: 20px;
+    gap: 0;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 0;
+    padding: 3rem;
+}
+table.gridjs-table {
+    width: 100%;
+}
+
+#MainLogo{
+    fill: var(--submit-background-color);
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+}
+ #footer{
+background-color:white;
+border-radius: 2rem 2rem 0 0;
+border-top:solid 0.25rem #DC143C;
+bottom: 0vh; 
+padding: 1rem;
+position:sticky;
+text-align: center;
+ }
